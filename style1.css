@@ -1,0 +1,27 @@
+.body{
+background-color: black;
+}
+ 
+.container{
+    background-color: cyan;
+    width: 70vw;
+    height: 30vh;
+    margin: 0 auto;
+}
+ 
+ 
+@media screen and (max-width: 1000px){
+    .container {
+        background-color: blueviolet;
+    }
+ 
+    h1 {
+        color: white;
+    }
+}
+ 
+@media screen and (max-width: 900px) {
+    .container {
+        background-color: greenyellow;
+    }
+}
